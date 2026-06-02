@@ -1,6 +1,4 @@
 import account from "./account.model.js";
-import { AggregationCursorOptions } from "./../../node_modules/mongodb/src/cursor/aggregation_cursor";
-import { IdPInfo } from "./../../node_modules/mongodb/src/cmap/auth/mongodb_oidc";
 
 //create account
 export const create = (data) => {
